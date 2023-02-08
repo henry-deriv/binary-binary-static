@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-21 06:50\n"
+"PO-Revision-Date: 2023-02-07 04:34\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -1098,6 +1098,9 @@ msgstr "Tài khoản / Thanh toán"
 
 msgid "Accumulation of Income/Savings"
 msgstr "Sự tích tụ của thu nhập/tiền tiết kiệm"
+
+msgid "Accumulator"
+msgstr "Bộ tích lũy"
 
 msgid "Accuracy of information"
 msgstr "Mức độ chính xác của thông tin"
@@ -5460,6 +5463,9 @@ msgstr "Đi tới Deriv"
 
 msgid "Go to Deriv to add an MT5 account"
 msgstr "Đi tới Deriv để tạo tài khoản MT5"
+
+msgid "Go to Deriv to add an account"
+msgstr "Đi tới Deriv để tạo tài khoản"
 
 msgid "Go to MT5 download page"
 msgstr "Vào trang tải MT5"

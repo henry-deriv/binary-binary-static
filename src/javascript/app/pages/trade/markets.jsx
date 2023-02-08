@@ -78,13 +78,13 @@ const List = ({
                             ) : (
                                 <div key={`${item}_${idx}`}>
                                     <div
-                                        className='market'
+                                        className='subgroup'
                                         key={idx}
                                         id={`${obj.key}_market`}
                                         ref={saveRef.bind(null,obj.key)}
                                     >
                                         {(obj.key === derived_category && isMobile()) && <div className='label'>{obj.subgroup_name}</div>}
-                                        <div className='market_name'>
+                                        <div className='subgroup_name'>
                                             {obj.name}
                                         </div>
                                         {Object.entries(obj.submarket).sort((a, b) => sortSubmarket(a[0], b[0]))
@@ -124,7 +124,11 @@ class Markets extends React.Component {
         let market_symbol = Defaults.get('market');
         const market_list = Symbols.markets();
         this.markets = getAvailableUnderlyings(market_list);
-        delete this.markets.forex.submarkets.smart_fx;
+
+        if (this.markets.forex) {
+            delete this.markets.forex.submarkets.smart_fx;
+        }
+
         this.underlyings = Symbols.getAllSymbols() || {};
         let underlying_symbol = Defaults.get('underlying');
 
@@ -191,7 +195,10 @@ class Markets extends React.Component {
     };
 
     toggleAccordion = () => {
-        this.setState({ open_accordion: !this.state.open_accordion });
+        this.setState((prevState) => ({
+            ...prevState,
+            open_accordion: !prevState.open_accordion,
+        }));
     }
 
     getCurrentUnderlying = () => {
@@ -228,7 +235,6 @@ class Markets extends React.Component {
                 } else {
                     this.setState({
                         subgroup_active: false,
-                        open_accordion : false,
                     });
                 }
             }
@@ -329,6 +335,7 @@ class Markets extends React.Component {
         const class_under = 'put_under';
         const TITLE_HEIGHT = 40;
         const DEFAULT_TOP = this.references.list.offsetTop;
+        const SUBGROUP_LABEL = document.getElementsByClassName('label');
 
         const current_viewed_node = Object.values(market_nodes).find(node => (
             node.dataset.offsetTop <= position
@@ -355,11 +362,12 @@ class Markets extends React.Component {
             current_viewed_node.children[0].removeAttribute('style');
             current_viewed_node.children[0].classList.remove(class_under);
         }
-        if (Object.values(current_viewed_node.children[0].classList).includes('label')) {
-            current_viewed_node.children[1].classList.add(class_sticky);
-        } else {
-            current_viewed_node.children[0].classList.add(class_sticky);
+        if (isMobile() && (current_viewed_node.classList.contains('subgroup') && !current_viewed_node.classList.contains('label'))) {
+            SUBGROUP_LABEL[0].classList.add(class_sticky);
+            SUBGROUP_LABEL[0].removeAttribute('style');
+            SUBGROUP_LABEL[0].classList.remove(class_under);
         }
+        current_viewed_node.children[0].classList.add(class_sticky);
         current_viewed_node.style.paddingTop = `${TITLE_HEIGHT}px`;
     }
 
@@ -521,11 +529,16 @@ class Markets extends React.Component {
                                             <div>
                                                 {group_markets[item].markets.map((m) => (
                                                     <div
-                                                        className={`market ${active_market === m.key ? 'active' : ''}`}
+                                                        className={classNames('market', {
+                                                            'active': active_market === m.key,
+                                                        })}
                                                         key={m.key}
                                                         onClick={scrollToMarket.bind(null, `${m.key}`)}
                                                     >
-                                                        <span className={`icon ${m.key} ${active_market === m.key ? 'active' : ''}`} />
+                                                        <span className={classNames(`icon ${m.key}`, {
+                                                            'active': active_market === m.key,
+                                                        })}
+                                                        />
                                                         <span>{m.name}</span>
                                                     </div>))}
                                             </div>
@@ -536,18 +549,30 @@ class Markets extends React.Component {
                                             >
                                                 <div
                                                     className={classNames('market', {
+                                                        'active'         : subgroup_active,
+                                                        'accordion-label': !!open_accordion,
+                                                    })}
+                                                    onClick={toggleAccordion}
+                                                >
+                                                    <span className={classNames('icon synthetic_index', {
                                                         'active': subgroup_active,
                                                     })}
-                                                    onClick={toggleAccordion || (subgroup_active ? toggleAccordion : '')}
-                                                >
-                                                    <span className={`icon synthetic_index ${open_accordion ? 'active' : ''}`} />
+                                                    />
                                                     <span>{group_markets[item].markets[0].subgroup_name}</span>
-                                                    <span className={`accordion-icon icon ${open_accordion ? 'active' : ''}`} />
+                                                    <span className={classNames('accordion-icon icon', {
+                                                        'active': open_accordion,
+                                                    })}
+                                                    />
                                                 </div>
-                                                <div className={`${open_accordion ? 'accordion-content--active' : 'accordion-content'}`}>
+                                                <div className={classNames('accordion-content', {
+                                                    'accordion-content--active': open_accordion,
+                                                })}
+                                                >
                                                     {group_markets[item].markets.map((m) => (
                                                         <div
-                                                            className={`subgroup market ${active_market === m.key ? 'subgroup-active' : ''}`}
+                                                            className={classNames('subgroup market', {
+                                                                'subgroup-active': active_market === m.key,
+                                                            })}
                                                             key={m.key}
                                                             onClick={scrollToMarket.bind(null, `${m.key}`)}
                                                         >
@@ -564,19 +589,24 @@ class Markets extends React.Component {
                             <div className='mobile'>
                                 <React.Fragment>
                                     <ul>
-                                        {Object.keys(group_markets).map((item) => {
+                                        {Object.keys(group_markets).map((item, idx) => {
                                             const derived_category = group_markets[item].markets[0].key;
                                             return (
                                                 item === 'none' ? (
-                                                    <React.Fragment>
+                                                    <React.Fragment key={`${item}_${idx}`}>
                                                         {group_markets[item].markets.map((m) => (
                                                             <li
                                                                 onClick = {scrollToMarket.bind(null, m.key)}
                                                                 key = {m.key}
                                                                 data-market = {m.key}
-                                                                className={active_market === m.key ? 'active' : ''}
+                                                                className={classNames('', {
+                                                                    'active': active_market === m.key,
+                                                                })}
                                                             >
-                                                                <span className={`icon ${m.key} ${active_market === m.key ? 'active' : ''}`} />
+                                                                <span className={classNames(`icon ${m.key}`, {
+                                                                    'active': active_market === m.key,
+                                                                })}
+                                                                />
                                                             </li>
                                                         ))}
                                                     </React.Fragment>
@@ -589,7 +619,10 @@ class Markets extends React.Component {
                                                             'active': (active_market === derived_category || subgroup_active),
                                                         })}
                                                     >
-                                                        <span className={`icon synthetic_index ${(active_market === derived_category || subgroup_active) ? 'active' : ''}`} />
+                                                        <span className={classNames('icon synthetic_index', {
+                                                            'active': active_market === derived_category || subgroup_active,
+                                                        })}
+                                                        />
                                                     </li>
                                                 )
                                             );

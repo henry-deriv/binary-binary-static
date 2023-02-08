@@ -19,6 +19,7 @@ const Utility                  = require('../../../../_common/utility');
 const ViewPopup = (() => {
     let contract_id,
         contract,
+        is_accumulator_contract,
         is_multiplier_contract,
         is_sold,
         is_sold_before_start,
@@ -76,6 +77,7 @@ const ViewPopup = (() => {
         // Lookback multiplier value
         multiplier = contract.multiplier;
         is_multiplier_contract = /MULTDOWN|MULTUP/.test(contract.contract_type);
+        is_accumulator_contract = /ACCU/.test(contract.contract_type);
 
         if (contract && document.getElementById(wrapper_id)) {
             update();
@@ -89,6 +91,7 @@ const ViewPopup = (() => {
         const form_name = Defaults.get('formname');
 
         return {
+            ACCU        : localize('Accumulator'),
             ASIANU      : localize('Asian Up'),
             ASIAND      : localize('Asian Down'),
             CALL        : form_name === 'risefall' ? localize('Rise') : localize('Higher'),
@@ -246,7 +249,9 @@ const ViewPopup = (() => {
             );
         }
 
-        const is_unsupported_contract = is_multiplier_contract || Callputspread.isCallputspread(contract.contract_type);
+        const is_unsupported_contract = is_accumulator_contract
+                                    || is_multiplier_contract
+                                    || Callputspread.isCallputspread(contract.contract_type);
         if (!is_started) {
             containerSetText('trade_details_entry_spot > span', '-');
             containerSetText('trade_details_message', localize('Contract has not started yet'));

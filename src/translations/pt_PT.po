@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-01-03 03:17\n"
+"PO-Revision-Date: 2023-02-08 05:58\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -1100,6 +1100,9 @@ msgstr "Contabilidade/Pagamentos"
 
 msgid "Accumulation of Income/Savings"
 msgstr "Acumulação de rendimentos/poupanças"
+
+msgid "Accumulator"
+msgstr "Acumuladores"
 
 msgid "Accuracy of information"
 msgstr "Precisão das Informações"
@@ -5476,6 +5479,9 @@ msgstr "Vá para Deriv"
 msgid "Go to Deriv to add an MT5 account"
 msgstr "Siga para Deriv para adicionar uma conta MT5"
 
+msgid "Go to Deriv to add an account"
+msgstr "Siga para Deriv para adicionar uma conta"
+
 msgid "Go to MT5 download page"
 msgstr "Ir à página de download da MT5"
 
@@ -9708,7 +9714,7 @@ msgid "Replication,"
 msgstr "Replicação,"
 
 msgid "Represent themselves as a representative of the Company or as an authorised person by the Company in their advertising activities."
-msgstr "Representar-se como representante da Empresa ou como pessoa autorizada pela Empresa nas suas atividades publicitárias."
+msgstr "Representar a si mesmos como representante da Empresa ou como pessoa autorizada pela Empresa em suas atividades de publicidade."
 
 msgid "Representations and warranties"
 msgstr "Representações e garantias"
@@ -9866,7 +9872,7 @@ msgid "Review and analyse suspicious client activities"
 msgstr "Revisar e analisar as atividades suspeitas do cliente"
 
 msgid "Review and approve KYC documents"
-msgstr "Revisar e aprovar documentos KYC"
+msgstr "Analisar e aprovar documentos KYC"
 
 msgid "Review and maintain third-party services used by the company"
 msgstr "Revisar e manter serviços de terceiros usados ​​pela empresa"
@@ -9905,7 +9911,7 @@ msgid "Right to terminate"
 msgstr "Direito de rescindir"
 
 msgid "Rights on Default"
-msgstr "Direito de Terminar"
+msgstr "Direitos sobre Inadimplência"
 
 msgid "Ripple vs US dollar"
 msgstr "Ripple vs Dólar Americano"
@@ -9932,7 +9938,7 @@ msgid "Risk acknowledgement"
 msgstr "Reconhecimento do risco"
 
 msgid "Risk disclaimer"
-msgstr "Aviso de Risco"
+msgstr "Declaração de risco"
 
 msgid "Risk disclosure statement"
 msgstr "Declaração de Divulgação de Risco"
@@ -9989,7 +9995,7 @@ msgid "Sale of Property"
 msgstr "Venda de propriedade"
 
 msgid "Sample:"
-msgstr "Amostra:"
+msgstr "Exemplo:"
 
 msgid "Saturday"
 msgstr "Sábado"
@@ -10358,13 +10364,13 @@ msgid "Simply click on \"Create\" to generate your token; then copy and paste it
 msgstr "Basta clicar em \"Criar\" para gerar o seu token; depois copie-o e cole-o no aplicativo."
 
 msgid "Since DIEL exclusively deals on own account in Financial Products, this means that DIEL acts as the execution venue, and accordingly all transactions entered into with DIEL will be executed outside a regulated market (stock exchange) or multilateral trading facility."
-msgstr "Como a DIEL lida exclusivamente com conta própria em Produtos Financeiros, isso significa que DIEL atua como local de execução e, consequentemente, todas as transações firmadas com a DIEL serão executadas fora de um mercado regulado (bolsa de valores) ou de um sistema de negociação multilateral."
+msgstr "Como a DIEL lida exclusivamente por conta própria em Produtos Financeiros, isso significa que a DIEL atua como local de execução e, consequentemente, todas as transações firmadas com a DIEL serão executadas fora de um mercado regulado (bolsa de valores) ou de um sistema de negociação multilateral."
 
 msgid "Since DIEL is a member of the Malta Investor Compensation Scheme, the client is covered for the first €20,000 of any claim that the client may have in the unlikely event of DIEL suffering an investment default and not being able to meet its obligations. This protection is available only to retail clients. Neither professional clients nor eligible counterparties can benefit from this protection."
-msgstr "Visto que a DIEL é um membro do Malta Investor Compensation Scheme (Sistema de Compensação de Investidores de Malta), você estará coberto pelos primeiros 20.000€ de qualquer reivindicação que puder ter no caso improvável de a DIEL sofrer um incumprimento de investimento e não poder cumprir as suas obrigações. Esta proteção está apenas disponível a clientes particulares. Nem clientes profissionais nem contrapartes elegíveis podem beneficiar desta proteção."
+msgstr "Visto que a DIEL é um membro do Malta Investor Compensation Scheme (Sistema de Compensação de Investidores de Malta), o cliente está coberto pelos primeiros €20.000 de qualquer reivindicação que puder ter no caso improvável de a DIEL sofrer uma inadimplência de investimento e não conseguir cumprir as suas obrigações. Esta proteção está disponível somente a clientes não-profissionais. Nem clientes profissionais, nem contrapartes elegíveis podem se beneficiar desta proteção."
 
 msgid "Since all transactions on the %1 website are fully automated, our pricing and risk management algorithms must fully consider critical factors such as real-time pricing parameters, data feed irregularities, and latencies."
-msgstr "Uma vez que toda a atividade no site da %1 é totalmente automatizada, os nossos algoritmos de apreçamento e gerenciamento de risco devem tomar plena conta dos parâmetros de preço em tempo real, irregularidades nos feeds de dados e latências."
+msgstr "Como todas as transações no site %1 são totalmente automatizadas, os nossos algoritmos de gestão de preços e riscos devem considerar os fatores críticos em sua totalidade, tais como os parâmetros de preços em tempo real, irregularidades no feed de dados e latências."
 
 msgid "Singapore dollar vs Japanese yen"
 msgstr "Dólar de Singapura vs Iene japonês"
@@ -10415,7 +10421,7 @@ msgid "Sorry, mobile version is not available yet."
 msgstr "Desculpe, a versão móvel ainda não está disponível."
 
 msgid "Sorry, no mobile phone bills"
-msgstr "Desculpe, sem contas de celular"
+msgstr "Desculpe, não são aceitas contas de celular"
 
 msgid "Sorry, options trading isn’t available in the United Kingdom and the Isle of Man"
 msgstr "Desculpe, a negociação de opções não está disponível no Reino Unido e na Ilha de Man"
@@ -10442,13 +10448,13 @@ msgid "Spanish and Guaraní are the two official languages of the country. Most 
 msgstr "O espanhol e o guarani são os dois idiomas oficiais do país. A maioria dos paraguaios é bilíngue, embora o guarani seja o mais falado fora da zona urbana. Na capital, o espanhol é a língua dominante, no entanto, você também encontra com facilidade falantes do inglês."
 
 msgid "Special conditions apply to clients who are employed in the banking and/or finance sector. They may not conduct trades through our website without the knowledge of their employer. They must check that any such trading is in accordance with their employer's policies."
-msgstr "Condições especiais se aplicam a clientes que trabalham no setor bancário e/ou financeiro. Eles não podem realizar operações através do nosso site sem o conhecimento de seu empregador. Eles devem verificar se tais negociações estão de acordo com as políticas de seus empregadores."
+msgstr "Condições especiais se aplicam a clientes que trabalham no setor bancário e/ou financeiro. Eles não podem realizar negócios através de nosso site sem o conhecimento de seu empregador. Eles devem verificar se tal negociação está de acordo com as políticas de seus empregadores."
 
 msgid "Specific instructions"
 msgstr "Instruções específicas"
 
 msgid "Speculate on the price movement of cryptocurrencies such as Bitcoin, Ethereum, and Litecoin without owning them."
-msgstr "Especule sobre o movimento de preços de criptomoedas como Bitcoin, Ethereum e Litecoin sem as deter,"
+msgstr "Especule sobre o movimento de preços de criptomoedas como Bitcoin, Ethereum e Litecoin sem possuí-las."
 
 msgid "Speculative"
 msgstr "Especulativo"
@@ -10511,7 +10517,7 @@ msgid "Statement"
 msgstr "Extrato"
 
 msgid "Statements that reflect your transactions from the previous four quarters"
-msgstr "Declarações que refletem as suas transações dos últimos quatro trimestres"
+msgstr "Extratos que apresentem as suas transações dos últimos quatro trimestres"
 
 msgid "Static content"
 msgstr "Conteúdo estático"
@@ -10523,7 +10529,7 @@ msgid "Stay informed. %1 offers daily market reports and market research, as wel
 msgstr "Mantenha-se informado. A %1 oferece relatórios diários sobre mercados e pesquisas de mercado, assim como webinars frequentes."
 
 msgid "Stay on top of the latest JavaScript frameworks, libraries, and tools in order to apply them when necessary to solve challenges related to web and mobile development"
-msgstr "Fique sempre atualizado sobre JavaScript frameworks, bibliotecas e ferramentas a fim de aplicá-las quando necessário para resolver os desafios relacionados ao desenvolvimento web e mobile"
+msgstr "Fique por dentro das mais recentes estruturas, bibliotecas e ferramentas de JavaScript para aplicá-las quando necessário para resolver os desafios relacionados ao desenvolvimento web e móvel"
 
 msgid "Stays Between"
 msgstr "Fica entre"
@@ -10532,7 +10538,7 @@ msgid "Stays Between/Goes Outside"
 msgstr "Fica entre/Sai fora"
 
 msgid "Stays Between/Goes Outside Contracts will be refunded at the purchase price if there are less than 2 ticks between the start and end times."
-msgstr "Os contratos \"Fica entre/Sai fora serão reembolsados ao preço de compra caso existam menos de 2 tique-taques entre a hora de início e a hora de término."
+msgstr "Os contratos Fica entre/Sai fora serão reembolsados ao preço de compra caso existam menos de 2 ticks entre os horários de início e término."
 
 msgid "Stays Between/Goes Outside trades"
 msgstr "Negociações Fica entre/Sai fora"
@@ -10541,19 +10547,19 @@ msgid "Step"
 msgstr "Etapa"
 
 msgid "Step %1: %2 (%1 of %3)"
-msgstr "Passo %1: %2 (%1 de %3)"
+msgstr "Etapa %1: %2 (%1 de %3)"
 
 msgid "Step 1"
 msgstr "Etapa 1"
 
 msgid "Step 1: Choose demo or real account"
-msgstr "Etapa 1: Escolha a conta demo ou real"
+msgstr "Etapa 1: escolha uma conta demo ou real"
 
 msgid "Step 1: Define your position"
 msgstr "Passo 1: Defina a sua posição"
 
 msgid "Step 1: Learn to read currency pairs"
-msgstr "Etapa 1: Aprenda como ler pares de moedas"
+msgstr "Etapa 1: Aprenda a ler pares de moedas"
 
 msgid "Step 2"
 msgstr "Etapa 2"
@@ -10562,7 +10568,7 @@ msgid "Step 2: Choose account type"
 msgstr "Etapa 2: Escolha o tipo de conta"
 
 msgid "Step 2: Get your price"
-msgstr "Etapa 2: Obtenha o seu preço"
+msgstr "Etapa 2: Confira o seu preço"
 
 msgid "Step 2: Understand when to buy and when to sell"
 msgstr "Etapa 2: Saiba quando comprar e quando vender"
@@ -10583,10 +10589,10 @@ msgid "Step indices"
 msgstr "Índices Step"
 
 msgid "Step outdoors and soak up the sun on one of Labuan's pristine beaches. There's also wreck diving, island hopping, kayaking, and deep sea fishing to look forward to."
-msgstr "Saia de casa e aproveite o sol em uma das praias imaculadas de Labuan. Também há oportunidades de mergulho em naufrágios, viagens entre as ilhas, canoagem e pesca em alto mar."
+msgstr "Saia ao ar livre e aproveite o sol em uma das magníficas praias de Labuan. Experimente também o mergulho em naufrágios, os passeios pelas ilhas, caiaque e a pesca em alto mar."
 
 msgid "Steps required to continue verification on your mobile"
-msgstr "Etapas necessárias para continuar a verificação no seu celular"
+msgstr "Etapas necessárias para continuar a verificação em seu celular"
 
 msgid "Stock Indices"
 msgstr "Índices de ações"
@@ -10604,16 +10610,16 @@ msgid "Stop Limit Orders are a combination of Stop and Limit Orders. If the pric
 msgstr "Ordens de limite de Stop são uma combinação de ordens de Stop e Limite. Se o preço atingir (ou ultrapassar) o Preço Stop, um Pedido Limite será colocado ao preço especificado, que será preenchido a um preço igual ou melhor que o preço especificado. "
 
 msgid "Stop Loss Orders"
-msgstr "Ordens de limite de perdas"
+msgstr "Ordens de Stop Loss"
 
 msgid "Stop Order/Stop Loss Order"
-msgstr "Ordem de interrupção/Ordem de limite de perdas"
+msgstr "Ordem de Stop/Ordem de Stop Loss"
 
 msgid "Stop Out Level"
 msgstr "Nível do limite de perdas"
 
 msgid "Stop out level"
-msgstr "Nível do limite de perdas"
+msgstr "Nível de Stop out"
 
 msgid "Storage of content"
 msgstr "Armazenamento de conteúdo"
@@ -10622,10 +10628,10 @@ msgid "Stored Procedures"
 msgstr "Procedimentos armazenados"
 
 msgid "Straight rows of keys are easy to guess"
-msgstr "Teclas com linhas retas são mais fáceis de adivinhar"
+msgstr "Linhas retas de teclas são fáceis de adivinhar"
 
 msgid "Strong analytical capabilities that have been proven in a prior capacity or a keen interest to move into this area"
-msgstr "Fortes capacidades analíticas que foram comprovadas em uma capacidade anterior ou um grande interesse para entrar nesta área"
+msgstr "Grande habilidade analítica comprovada anteriormente ou com um grande interesse em migrar para essa área"
 
 msgid "Strong analytical skills and the ability to communicate your findings in a clear, concise, and effective manner"
 msgstr "Fortes habilidades analíticas e capacidade de comunicar suas descobertas de maneira clara, concisa e eficaz"
@@ -10637,10 +10643,10 @@ msgid "Strong communication skills."
 msgstr "Fortes habilidades de comunicação."
 
 msgid "Strong decision-making skills"
-msgstr "Forte capacidade de tomar decisões"
+msgstr "Fortes habilidades de tomada de decisão"
 
 msgid "Strong oral and written communication skills in both the regional language(s) and English"
-msgstr "Fortes capacidades de comunicação oral e escrita, tanto no idioma regional como em inglês"
+msgstr "Fortes habilidades de comunicação oral e escrita no idioma regional e em inglês"
 
 msgid "Strong passwords contain at least 8 characters, combine uppercase and lowercase letters, numbers, and symbols."
 msgstr "Senhas fortes contêm pelo menos 8 caracteres, combinam letras maiúsculas e minúsculas, números e símbolos."
@@ -10713,16 +10719,16 @@ msgid "Submit one of the documents below"
 msgstr "Envie um dos documentos abaixo"
 
 msgid "Submit passport photo page"
-msgstr "Enviar foto da página do passaporte"
+msgstr "Enviar página de foto do passaporte"
 
 msgid "Submit proof of address"
 msgstr "Enviar comprovante de residência"
 
 msgid "Submit residence permit (back)"
-msgstr "Enviar autorização de residência (voltar)"
+msgstr "Enviar permissão de residência (verso)"
 
 msgid "Submit residence permit (front)"
-msgstr "Apresentar autorização de residência (frente)"
+msgstr "Enviar permissão de residência (frente)"
 
 msgid "Submit the document below"
 msgstr "Envie o documento abaixo"
@@ -10755,7 +10761,7 @@ msgid "Such a withdrawal would result in the client's Account Equity being less 
 msgstr "Esse saque resultaria no capital da conta do cliente sendo menor que zero."
 
 msgid "Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remains intact and that all copies include the following notice in a clearly visible position: &ldquo;Copyright <span class='currentYear'></span> Deriv Ltd. All rights reserved.&rdquo;"
-msgstr "Tais materiais podem ser copiados e distribuídos em uma base limitada apenas para fins não comerciais, desde que qualquer material copiado permaneça intacto e que todas as cópias incluam o seguinte aviso em uma posição claramente visível: &ldquo; Direitos Autorais <span class='currentYear'></span> Deriv Ltd.  Todos os direitos reservados.&rdquo;"
+msgstr "Tais materiais podem ser copiados e distribuídos em uma base limitada apenas para fins não comerciais, desde que qualquer material copiado permaneça intacto e que todas as cópias incluam o seguinte aviso em uma posição nítida: &ldquo; Direitos Autorais <span class='currentYear'></span> Deriv Ltd.  Todos os direitos reservados.&rdquo;"
 
 msgid "Summarise audit findings and work with department heads on the proposed solutions"
 msgstr "Resumir os resultados da auditoria e trabalhar com os chefes de departamento nas soluções propostas"
@@ -10809,7 +10815,7 @@ msgid "Swap scheme"
 msgstr "Esquema de Swap"
 
 msgid "Swaps Long (per annum)"
-msgstr "Longo Swaps (por ano)"
+msgstr "Swaps Long (por ano)"
 
 msgid "Swaps Short (per annum)"
 msgstr "\n"
@@ -10895,7 +10901,7 @@ msgid "Take a photo of the front of your license"
 msgstr "Tire uma foto da frente da sua carteira nacional de habilitação"
 
 msgid "Take a photo of your passport photo page"
-msgstr "Tire uma foto da página do seu passaporte"
+msgstr "Tire uma foto da página de foto do seu passaporte"
 
 msgid "Take a photo using the <fallback>basic camera mode</fallback> instead"
 msgstr "Tire uma foto usando o <fallback>modo de câmera básico</fallback>"
@@ -11009,10 +11015,10 @@ msgid "Test and debug our ever-evolving product line to improve their speed, sca
 msgstr "Testar e aprimorar a nossa linha de produtos em constante evolução, para melhorar a sua velocidade, escalabilidade e usabilidade em vários navegadores, dispositivos e padrões da web"
 
 msgid "Test our products and services for security vulnerabilities. In the process, you'll earn a monetary reward for any verifiable issues that you find, courtesy of our bug bounty programme."
-msgstr "Teste os nossos produtos e serviços para vulnerabilidades de segurança. Durante o processo você receberá um prêmio monetário por quaisquer problemas verificáveis que descobrir, cortesia do nosso programa de recompensas por bugs."
+msgstr "Teste os nossos produtos e serviços para vulnerabilidades de segurança. Durante o processo você receberá uma recompensa financeira por quaisquer problemas verificáveis que encontrar, cortesia do nosso programa de recompensas por bugs."
 
 msgid "Test the %1 website, applications, backend, and back-office systems"
-msgstr "Teste o website da %1, aplicativos, back-end e sistemas de back-office"
+msgstr "Teste o site da %1, aplicativos, back-end e sistemas de back-office"
 
 msgid "Tether ERC20"
 msgstr "Tether ERC20"
@@ -11030,7 +11036,7 @@ msgid "Tether TRC20"
 msgstr "Tether TRC20"
 
 msgid "Tether as a TRC20 token (tUSDT) is a version of Tether that is hosted on Tron."
-msgstr "Tether como um token TRC20 (tUSDT) é uma versão do Tether hospedada no Tron."
+msgstr "O Tether como token TRC20 (tUSDT) é uma versão do Tether hospedada no Tron."
 
 msgid "Tether as an ERC20 token (eUSDT) is a version of Tether that is hosted on Ethereum."
 msgstr "Tether como um token ERC20 (eUSDT) é uma versão do Tether hospedada na Ethereum."
@@ -11057,13 +11063,13 @@ msgid "Thank you for your interest in partnering with us. We've made it easy for
 msgstr "Agradecemos o seu interesse em fazer parceria conosco. Facilitamos sua inscrição online. Basta preencher o formulário de inscrição online %1o%2 com todos os dados necessários. Se você já está registrado como afiliado %3 , envie um e-mail para %4. Entraremos em contato diretamente caso a sua inscrição tenha sido validada."
 
 msgid "That contravenes any laws, regulations, instruments, ordinances, or rules that govern the operation of any exchange, financial market, or financial regulatory environment"
-msgstr "Que viole quaisquer leis, regulamentos, instrumentos, ordenanças ou regras que regem a operação de qualquer mercado de câmbio, financeiro ou ambiente regulatório financeiro"
+msgstr "Isso viola quaisquer leis, regulamentos, instrumentos, portarias ou regras que regem a operação de qualquer bolsa, mercado financeiro ou ambiente regulatório financeiro"
 
 msgid "That the parties agree in writing that both parties will be exempt from the provisions of this clause"
 msgstr "Que as partes concordam por escrito que ambas as partes estarão isentas das disposições desta cláusula"
 
 msgid "That the recipient is obliged by Law to disclose such information, provided that the recipient promptly advises the other party of the legal obligation to disclose such information"
-msgstr "Que o destinatário é obrigado pela Lei a divulgar essas informações, desde que o destinatário informe imediatamente a outra parte da obrigação legal de divulgar tais informações"
+msgstr "Que o destinatário é obrigado por lei a divulgar tais informações, desde que o destinatário avise prontamente a outra parte sobre a obrigação legal de divulgar tais informações"
 
 msgid "The %1 API has usage limits enforced to prevent abuse and/or repurposing of the %1 API. These usage limits may be changed in the future without notice. If the Programmer consistently exceeds the usage limit or otherwise abuse the service, the Company may block the Programmer's access to the %1 API."
 msgstr "A API %1 tem limites de uso impostos para evitar abuso e/ou redirecionamento da API %1. Esses limites de uso podem ser alterados no futuro sem aviso prévio. Se o Programador exceder consistentemente o limite de uso ou abusar do serviço, a Empresa pode bloquear o acesso do Programador à API %1."
@@ -11087,19 +11093,19 @@ msgid "The %1 website's static content (CSS, Javascript) is available as the %2b
 msgstr "O conteúdo estático do site %1 (CSS, Javascript) está disponível como <a target='_blank' href='%1'>binary-static</a>, um projeto de código aberto no github. Gostaria de recriar o site %1 ou melhorar a compatibilidade com navegadores, aumentar a velocidade do site ou o desempenho do Javascript? Então, crie uma cópia do projeto e envie um pedido com as suas sugestões de mudança de código."
 
 msgid "The %1close%2 is the latest tick at or before the %1end time%2. If you selected a specific %1end time,%2 the %1end time%2 is the selected time."
-msgstr "O %1fechamento%2 é o último tique-taque em ou antes da %1hora de término%2. Caso você tenha selecionado uma \"%1hora de término%2 específica, a %1hora de término%2 é a hora selecionada."
+msgstr "O fechamento é o último tick antes ou na hora de término. Caso você tenha selecionado uma hora de término específico, a hora de término é a hora selecionada."
 
 msgid "The %1contract period%2 is the period between the %1first tick%2 (after start time) and the %1end time%2."
-msgstr "O %1período do contrato%2 é o período entre o %1primeiro tique-taque%2 (depois da hora de início) e a \"%1hora de término%2."
+msgstr "O %1período do contrato%2 é o período entre o %1primeiro tick%2 (depois da hora de início) e a \"%1hora de término%2."
 
 msgid "The %1end time%2 is the selected number of minutes/hours after the %1start time%2."
 msgstr "A %1hora de término%2 é o número de minutos/horas selecionado depois da %1hora de início%2."
 
 msgid "The %1entry spot%2 is the next tick after the %1start time%2."
-msgstr "O %1Preço de Entrada%2 é o próximo tique-taque após a %1hora de início%2."
+msgstr "O %1Preço de Entrada%2 é o próximo tick após a %1hora de início%2."
 
 msgid "The %1exit spot%2 is the last tick when the contract ends. Contract ends when all ticks rise or fall successively, or when a single tick breaks the predicted pattern."
-msgstr "O %1preço de saída%2 é o último tique-taque quando o contrato termina. O contrato termina quando todos os tique-taques sobem ou descem sucessivamente, ou quando um único tique-taque quebra o padrão previsto."
+msgstr "O %1preço de saída%2 é o último tick quando o contrato termina. O contrato termina quando todos os ticks sobem ou descem sucessivamente, ou quando um único tick quebra o padrão previsto."
 
 msgid "The %1high%2 is the highest point ever reached by the market during the contract period."
 msgstr "A %1alta%2 é o ponto mais alto alcançado pelo mercado durante o período do contrato."
@@ -11159,10 +11165,10 @@ msgid "The Affiliate must comply with the applicable laws, rules, and regulation
 msgstr "O Afiliado deve cumprir com as leis, regras e regulamentos aplicáveis (incluindo, mas não limitado a, publicidade, proteção de dados e leis de privacidade, regras e regulamentos) da(s) jurisdição(ões) em que o Afiliado opera ou visa negócios."
 
 msgid "The Affiliate must ensure that any historical trading records and performance figures presented to the Affiliate's referrals related to trading on the website %1 are accurate and not misleading."
-msgstr "O Afiliado deve assegurar que quaisquer registos históricos de negociação e valores de desempenho apresentados às referências do Afiliado relacionadas com a negociação no website %1 são exatos e não enganosos."
+msgstr "O Afiliado deve garantir que quaisquer registros históricos de negociação, e números de desempenho apresentados às referências do Afiliado relacionadas à negociação no site %1, sejam precisos e não enganosos."
 
 msgid "The Affiliate must ensure that the Affiliate does not place digital advertisements on websites providing unauthorised access to copyrighted content."
-msgstr "O Afiliado deve garantir que o Afiliado não coloque anúncios digitais em sites que forneçam acesso não autorizado a conteúdos protegidos por direitos de autor."
+msgstr "O Afiliado deve garantir que o Afiliado não coloque anúncios digitais em sites que forneçam acesso não autorizado a conteúdo protegido por direitos autorais."
 
 msgid "The Affiliate must provide such information to the licensee as they may reasonably require in order to be able to comply with their information reporting and other obligations%1 to the UK Gambling Commission%2."
 msgstr "O Afiliado deve fornecer ao licenciado a informação que este razoavelmente necessite para poder cumprir com os seus relatórios de informação e outras obrigações%1 para com a UK Gambling Commission%2."

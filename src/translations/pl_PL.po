@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-21 06:50\n"
+"PO-Revision-Date: 2023-02-07 04:34\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -1098,6 +1098,9 @@ msgstr "Konta/Płatności"
 
 msgid "Accumulation of Income/Savings"
 msgstr "Zgromadzony dochód/ oszczędności"
+
+msgid "Accumulator"
+msgstr "Akumulator"
 
 msgid "Accuracy of information"
 msgstr "Dokładność informacji"
@@ -5460,6 +5463,9 @@ msgstr "Przejdź do Deriv"
 
 msgid "Go to Deriv to add an MT5 account"
 msgstr "Przejdź do Deriv, aby dodać konto MT5"
+
+msgid "Go to Deriv to add an account"
+msgstr "Przejdź do Deriv, aby dodać konto"
 
 msgid "Go to MT5 download page"
 msgstr "Przejdź do strony pobierania MT5"
